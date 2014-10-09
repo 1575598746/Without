@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>detail_Dialog</class>
+ <widget class="QDialog" name="detail_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>182</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="approval_number_label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>21</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>批准文号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>633</x>
+     <y>21</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>库存</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="inventoryDetail_label">
+   <property name="geometry">
+    <rect>
+     <x>633</x>
+     <y>40</y>
+     <width>71</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>144</y>
+     <width>103</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存修改</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="comfirm_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>609</x>
+     <y>144</y>
+     <width>103</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remind_label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>321</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="appDetail_label">
+   <property name="geometry">
+    <rect>
+     <x>181</x>
+     <y>39</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>604</x>
+     <y>144</y>
+     <width>5</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/1149835.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>176</y>
+     <width>211</width>
+     <height>5</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/1149835 - 副本.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>712</width>
+     <height>182</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/backGround (5).jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_label">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>21</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>名称</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="nameDetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>39</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="OTC_label">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>21</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OTC</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="OTCdetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>39</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="category_label">
+   <property name="geometry">
+    <rect>
+     <x>271</x>
+     <y>21</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>类型</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="categoryDetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>271</x>
+     <y>39</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>361</x>
+     <y>21</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>剂型</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="dosageDetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>361</x>
+     <y>39</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>451</x>
+     <y>21</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>说明</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="packageDetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>451</x>
+     <y>39</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>541</x>
+     <y>21</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生产厂家</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="manufacturer_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>541</x>
+     <y>39</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>label_9</zorder>
+  <zorder>appDetail_label</zorder>
+  <zorder>approval_number_label</zorder>
+  <zorder>label_4</zorder>
+  <zorder>inventoryDetail_label</zorder>
+  <zorder>save_pushButton</zorder>
+  <zorder>comfirm_pushButton</zorder>
+  <zorder>remind_label</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_8</zorder>
+  <zorder>name_label</zorder>
+  <zorder>nameDetail_textEdit</zorder>
+  <zorder>OTC_label</zorder>
+  <zorder>OTCdetail_textEdit</zorder>
+  <zorder>category_label</zorder>
+  <zorder>categoryDetail_textEdit</zorder>
+  <zorder>label</zorder>
+  <zorder>dosageDetail_textEdit</zorder>
+  <zorder>label_2</zorder>
+  <zorder>packageDetail_textEdit</zorder>
+  <zorder>label_3</zorder>
+  <zorder>manufacturer_textEdit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>insert_Dialog</class>
+ <widget class="QDialog" name="insert_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>251</width>
+    <height>441</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>103</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>     名称：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>23</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>       ID：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>353</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> 是否为OTC：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>63</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> 批准文号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>183</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> 药品类型：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>273</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>     剂型：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>313</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>     说明：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>143</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> 生产厂商：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ID_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>22</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>102</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="OTC_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>352</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="approval_number_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>62</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="category_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>182</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dosage_form_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>272</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="package_insert_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>312</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="manufacturer_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>142</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="generateID_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>22</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生成ID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="comfirm_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>390</y>
+     <width>245</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pic_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>67</y>
+     <width>22</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remind_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>223</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>251</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/backGround (5).jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_8</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_9</zorder>
+  <zorder>ID_lineEdit</zorder>
+  <zorder>name_lineEdit</zorder>
+  <zorder>OTC_lineEdit</zorder>
+  <zorder>approval_number_lineEdit</zorder>
+  <zorder>category_lineEdit</zorder>
+  <zorder>dosage_form_lineEdit</zorder>
+  <zorder>package_insert_lineEdit</zorder>
+  <zorder>manufacturer_lineEdit</zorder>
+  <zorder>generateID_pushButton</zorder>
+  <zorder>comfirm_pushButton</zorder>
+  <zorder>pic_pushButton</zorder>
+  <zorder>remind_label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

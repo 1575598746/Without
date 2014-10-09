@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>register_Dialog</class>
+ <widget class="QDialog" name="register_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>294</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="userName_label">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>40</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>        账号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="role_label">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>80</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>        角色：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="passWord_label">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>120</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>        密码：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="again_label">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>160</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>再次输入密码：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ID_label">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>200</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>    身份证号：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passWord_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="again_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>160</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ID_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>200</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="commit_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>192</x>
+     <y>230</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="manager_radioButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>80</y>
+     <width>89</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>管理员</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="operator_radioButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>80</y>
+     <width>89</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>操作员</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remindAgain_label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>161</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remindName_label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>40</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remindEmpty_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remindID_label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>201</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sameID_label">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>264</y>
+     <width>271</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="getBack_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>296</x>
+     <y>230</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>294</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/backGround.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>userName_label</zorder>
+  <zorder>role_label</zorder>
+  <zorder>passWord_label</zorder>
+  <zorder>again_label</zorder>
+  <zorder>ID_label</zorder>
+  <zorder>name_lineEdit</zorder>
+  <zorder>passWord_lineEdit</zorder>
+  <zorder>again_lineEdit</zorder>
+  <zorder>ID_lineEdit</zorder>
+  <zorder>commit_pushButton</zorder>
+  <zorder>manager_radioButton</zorder>
+  <zorder>operator_radioButton</zorder>
+  <zorder>remindAgain_label</zorder>
+  <zorder>remindName_label</zorder>
+  <zorder>remindEmpty_label</zorder>
+  <zorder>remindID_label</zorder>
+  <zorder>sameID_label</zorder>
+  <zorder>getBack_pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

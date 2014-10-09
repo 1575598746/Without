@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inStorage_Dialog</class>
+ <widget class="QDialog" name="inStorage_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>733</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="name_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  名称：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="category_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>180</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  药品类型：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="manufacturer_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  生产厂商：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="approval_number_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>96</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  批准文号：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="select_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>310</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inventory_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>400</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>400</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  库存量：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>10</y>
+     <width>126</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>入库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="batchAdd_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>60</y>
+     <width>126</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>批量入库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refresh_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>390</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="inStorage_tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>149</x>
+     <y>40</y>
+     <width>441</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="name_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>89</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="manufacturer_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>149</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="category_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>209</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="approval_number_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>269</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="out_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>110</y>
+     <width>126</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>出库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="batchOut_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>160</y>
+     <width>126</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>批量出库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showAll_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空条件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showZero_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>260</y>
+     <width>126</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>零库存药品</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="checkDiary_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>360</y>
+     <width>126</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>出入库记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>360</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="detail_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>310</y>
+     <width>126</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>详细信息</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>0</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="moveOut_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>210</y>
+     <width>126</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>移出列表</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>142</x>
+     <y>32</y>
+     <width>457</width>
+     <height>8</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/1149835 - 副本.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>31</y>
+     <width>8</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/1149835.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>40</y>
+     <width>8</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/1149835.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>382</y>
+     <width>457</width>
+     <height>8</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/1149835 - 副本.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>733</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/7675352_090252092817_2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>name_label</zorder>
+  <zorder>category_label</zorder>
+  <zorder>manufacturer_label</zorder>
+  <zorder>approval_number_label</zorder>
+  <zorder>select_pushButton</zorder>
+  <zorder>inventory_lineEdit</zorder>
+  <zorder>label</zorder>
+  <zorder>add_pushButton</zorder>
+  <zorder>batchAdd_pushButton</zorder>
+  <zorder>refresh_pushButton</zorder>
+  <zorder>inStorage_tableWidget</zorder>
+  <zorder>name_comboBox</zorder>
+  <zorder>manufacturer_comboBox</zorder>
+  <zorder>category_comboBox</zorder>
+  <zorder>approval_number_comboBox</zorder>
+  <zorder>out_pushButton</zorder>
+  <zorder>batchOut_pushButton</zorder>
+  <zorder>showAll_pushButton</zorder>
+  <zorder>showZero_pushButton</zorder>
+  <zorder>checkDiary_pushButton</zorder>
+  <zorder>delete_pushButton</zorder>
+  <zorder>detail_pushButton</zorder>
+  <zorder>lcdNumber</zorder>
+  <zorder>moveOut_pushButton</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

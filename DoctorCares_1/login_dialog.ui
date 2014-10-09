@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LogIn_Dialog</class>
+ <widget class="QDialog" name="LogIn_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>255</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LogIn_Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="Username_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Password_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Username_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>54</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>账号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Password_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>54</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>密码：</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Manager_radioButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>89</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Manager</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Operator_radioButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>220</y>
+     <width>89</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Operator</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LogIn_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>250</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Query_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>339</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>30</y>
+     <width>123</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="register_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>294</y>
+     <width>125</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="forget_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>294</y>
+     <width>121</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>忘记密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>255</width>
+     <height>399</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/backGround.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>121</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/background (2).jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>Username_lineEdit</zorder>
+  <zorder>Password_lineEdit</zorder>
+  <zorder>Username_label</zorder>
+  <zorder>Password_label</zorder>
+  <zorder>Manager_radioButton</zorder>
+  <zorder>Operator_radioButton</zorder>
+  <zorder>LogIn_pushButton</zorder>
+  <zorder>Query_pushButton</zorder>
+  <zorder>lcdNumber</zorder>
+  <zorder>register_pushButton</zorder>
+  <zorder>forget_pushButton</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

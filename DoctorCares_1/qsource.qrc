@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cancel1.png</file>
+        <file>f0582.png</file>
+        <file>down4.png</file>
+        <file>up4.png</file>
+        <file>4960245_143846048031_2.jpg</file>
+        <file>6608733_111555839000_2.jpg</file>
+        <file>7675352_090252092817_2.jpg</file>
+        <file>7675352_090252138517_2.jpg</file>
+        <file>2008118144313111_2.jpg</file>
+        <file>1149835.jpg</file>
+        <file>1149835 - 副本.jpg</file>
+        <file>background (1).jpg</file>
+        <file>back_ground (2).jpg</file>
+        <file>back_ground (3).jpg</file>
+        <file>back_ground.jpg</file>
+        <file>login.jpg</file>
+        <file>4499633_140637012000_2.jpg</file>
+        <file>background (2).jpg</file>
+        <file>184e7ced4176389ab21cb12b.png</file>
+        <file>images (1).jpg</file>
+        <file>images.jpg</file>
+        <file>184e7ced4176389ab21cb12b - 副本.png</file>
+        <file>backGround (4).jpg</file>
+        <file>backGround (5).jpg</file>
+        <file>backGround.jpg</file>
+        <file>qstylesheet.qss</file>
+    </qresource>
+</RCC>

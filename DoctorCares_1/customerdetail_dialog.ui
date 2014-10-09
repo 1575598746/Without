@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>customerDetail_Dialog</class>
+ <widget class="QDialog" name="customerDetail_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>132</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>462</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/backGround (5).jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_label">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>8</y>
+     <width>79</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>名称</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="nameDetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>29</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Arabic</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="OTC_label">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>8</y>
+     <width>79</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OTC</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="OTCdetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>29</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Arabic</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="packageDetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>29</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Arabic</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>8</y>
+     <width>79</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>说明</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>371</x>
+     <y>8</y>
+     <width>79</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生产厂家</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="category_label">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>8</y>
+     <width>79</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>类型</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="categoryDetail_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>29</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Arabic</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="manufacturer_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>371</x>
+     <y>29</y>
+     <width>79</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Arabic</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+  </widget>
+  <zorder>label_background</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget_2</zorder>
+  <zorder>layoutWidget_3</zorder>
+  <zorder>layoutWidget_4</zorder>
+  <zorder>layoutWidget_5</zorder>
+  <zorder>name_label</zorder>
+  <zorder>nameDetail_textEdit</zorder>
+  <zorder>OTC_label</zorder>
+  <zorder>OTCdetail_textEdit</zorder>
+  <zorder>packageDetail_textEdit</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>category_label</zorder>
+  <zorder>categoryDetail_textEdit</zorder>
+  <zorder>manufacturer_textEdit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
